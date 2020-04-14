@@ -231,7 +231,12 @@ evaluator = Evaluator()
 # so as to minimize the neural style loss
 x = preprocess_image(base_image_path)
 
+img = deprocess_image(x.copy())
+fname = result_prefix + '_at_iteration_0.png'
+save_img(fname, img)
+    
 for i in range(iterations):
+    i += 1
     print('Start of iteration', i)
     start_time = time.time()
     x, min_val, info = fmin_l_bfgs_b(evaluator.loss, x.flatten(),

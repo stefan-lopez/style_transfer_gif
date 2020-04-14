@@ -1,6 +1,6 @@
 # Neural Style Transfer Movie
 
-!['resources/readme_clip.gif'](resources/readme_clip.gif)
+!['resources/neural_style_movie_adam.gif'](resources/neural_style_movie_adam.gif)
 
 ## Project File Overview
 

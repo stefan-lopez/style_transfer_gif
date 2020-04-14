@@ -1,4 +1,4 @@
-# Neural Style Transfer Movie
+# Neural Style Transfer GIF
 
 !['resources/neural_style_movie_adam.gif'](resources/neural_style_movie_adam.gif)
 

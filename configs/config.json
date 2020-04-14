@@ -1,0 +1,9 @@
+{
+"VIDEO_SAVE_PATH" : "neural_style_movie_adam.gif",
+"IMAGES_PATH" : "images/",
+"IMAGE_PREFIX" : "result_at_iteration_",
+"IMAGE_TYPE" : "png",
+"CODEC" : "DIVX",
+"NUM_FRAMES" : 12,
+"FPS" : 5
+}
